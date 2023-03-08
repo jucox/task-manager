@@ -1,11 +1,12 @@
 .task-container {
-    background-color: #444;
+    background-color: #11999E;
     margin: 8px 0;
     padding: 15px 20px;
     display: flex;
-    border-radius: 5px;
+    border-radius: 10px;
+    border: 2px solid #F0F0F0;
     justify-content: space-between;
-    color: #eee;
+    color: #FFF;
     align-items: center;
 }
 
@@ -20,9 +21,19 @@
 }
 
 .remove-task-button, .see-task-details-button {
-    background-color: #444;
+    background-color: #11999E;
     border: none;
     font-size: 24px;
-    color: chartreuse;
+    color: #FFF;
     margin: 0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: .25s;
+}
+
+.remove-task-button:hover,
+.see-task-details-button:hover {
+    color: #30E3CA;
 }

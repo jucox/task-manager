@@ -2,7 +2,7 @@ import React from 'react';
 import "./Header.css";
 
 const Header = () => {
-    return <h1 className="header">MY TASKS</h1>;
+    return <h2>Task manager</h2>;
 }
  
 export default Header;
