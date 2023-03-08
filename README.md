@@ -1,6 +1,6 @@
-# Task Manager ✅
+# To-do List 📝
 
-Dynamic task manager developed with React. ⚛️
+Dynamic to-do list developed with React. ⚛️
 
 You can see the live project working on <a href="https://my-tasks-react.vercel.app/" target="_blank">this page</a>. 💻
 
